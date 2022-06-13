@@ -4,6 +4,28 @@ html, body{
     color: #2B283A;
 }
 
+/****************** navbar classes ******************/
+
+.navbar--logo{
+    margin-right: 10px;
+    color: white;
+}
+
+.navbar--title{
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 14.46px;
+}
+
+.navbar--whole{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #F55A5A;
+}
+
 /****************** card classes ******************/
 
 .card--container{
@@ -68,24 +90,31 @@ html, body{
     margin-top: 10px;
 }
 
-/****************** navbar classes ******************/
+/****************** footer classes ******************/
 
-.navbar--logo{
-    margin-right: 10px;
-    color: white;
-}
-
-.navbar--title{
-    margin: 0;
-    color: white;
-    font-weight: 500;
-    font-size: 14.46px;
-}
-
-.navbar--whole{
+.footer--container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 15px 0;
+    padding: 0 40px;
     background-color: #F55A5A;
+    color: white;
+}
+
+.footer--container--copyright{
+    display: flex;
+    align-items: center;
+}
+
+.footer--container--copyright--name{
+    margin: 15px 10px;
+}
+
+.footer--container--social{
+    margin-left: auto;
+}
+
+.footer--container--social--brand-icon{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
 }

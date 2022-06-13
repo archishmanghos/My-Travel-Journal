@@ -16,9 +16,9 @@ export default function Card(props){
                 <h1 className="card--container--description--title">{props.title}</h1>
                 <div className="card--container--description--details">
                     <div className="card--container--description--details--date">
-                        <p className="card--container--description--details--date--date">{props.endDate}</p>
-                        <p className="card--container--description--details--date--hyphen">-</p>
                         <p className="card--container--description--details--date--date">{props.startDate}</p>
+                        <p className="card--container--description--details--date--hyphen">-</p>
+                        <p className="card--container--description--details--date--date">{props.endDate}</p>
                     </div>
                     <p className="card--container--description--details--details">{props.details}</p>
                 </div>
